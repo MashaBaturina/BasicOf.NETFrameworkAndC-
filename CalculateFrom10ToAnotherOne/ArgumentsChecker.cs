@@ -2,7 +2,7 @@
 
 namespace CalculateFrom10ToAnotherOne
 {
-    public static class CheckArguments
+    public static class ArgumentsChecker
     {
         public static bool CheckArgs(string[] args)
         {

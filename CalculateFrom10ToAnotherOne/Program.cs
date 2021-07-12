@@ -13,7 +13,8 @@ namespace CalculateFrom10ToAnotherOne
                 int decimalNumber = Int32.Parse(args[0]);
                 int notation = Int32.Parse(args[1]);
 
-                ConsoleWriter.PrintNumberRepresentation(decimalNumber, notation);
+                string numberRepresentation = Convertor.ConvertNumberToAnotherNotation(decimalNumber, notation);
+                Console.WriteLine(numberRepresentation);
             }
 
             Console.ReadKey();
